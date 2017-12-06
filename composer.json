@@ -1,0 +1,23 @@
+{
+    "name": "hyperia/codecept-unittest-generator",
+    "description": "Unit test generator from annotations.",
+    "homepage": "https://github.com/hyperia-sk/codecept-unittest-generator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lukas Mestan",
+            "email": "lukas.mestan@hyperia.sk"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.4.0",
+        "codeception/codeception": "^2.2.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "Codeception\\Command\\": "src"
+        }
+    }
+}
