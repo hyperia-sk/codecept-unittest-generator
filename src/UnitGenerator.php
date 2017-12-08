@@ -1,12 +1,5 @@
 <?php
 
-/**
- * An example for a custom command to add to the framework.
- *
- * @author    Tobias Matthaiou <tm@solutionDrive.de>
- * @date      27.01.16
- */
-
 namespace Codeception\Command;
 
 use \Symfony\Component\Console\Command\Command;
