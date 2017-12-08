@@ -5,6 +5,8 @@
 > You must check and complete all tests you generate, including the most basic methods.
 > Files to parse must declare one class, abstract class, trait or interface to be accepted.
 
+![screenshot_2017-12-08_17-12-32-github](https://user-images.githubusercontent.com/6382002/33774260-0aaacebc-dc3b-11e7-8a97-34265a4818cc.png)
+
 ## Installation
 
 The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
