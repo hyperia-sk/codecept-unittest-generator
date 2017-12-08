@@ -13,7 +13,7 @@ class RenderGenerator implements TestRendererInterface
     /**
      * @var string DEFAULT_TEMPLATE_FOLDER The default template folder
      */
-    const DEFAULT_TEMPLATE_FOLDER = 'tests/_support/UnitGenerator/Template';
+    const DEFAULT_TEMPLATE_FOLDER = '/Template/';
 
     /**
      * @var \Twig\Environment $twig The template renderer
@@ -26,7 +26,7 @@ class RenderGenerator implements TestRendererInterface
     public function __construct()
     {
         // Create the FileSystemLoader
-        $loader = $this->getFilesystemLoader(static::DEFAULT_TEMPLATE_FOLDER);
+        $loader = $this->getFilesystemLoader(__DIR__ . static::DEFAULT_TEMPLATE_FOLDER);
 
         // Create twig configuration
         $twigConfig['cache'] = false;
