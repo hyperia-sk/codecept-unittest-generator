@@ -1,0 +1,17 @@
+language: php
+dist: trusty
+sudo: false
+
+# PHP versions to tests
+php:
+- 7.0
+- 7.1
+# Composer install
+install:
+  - cd vendor/paulthebaud/phpunit-generator && travis_retry composer install --no-interaction
+# Make unit tests log directory
+before_script:
+  - cd vendor/paulthebaud/phpunit-generator && mkdir -p build/logs
+# Unit tests
+script:
+  - cd vendor/paulthebaud/phpunit-generator && composer test

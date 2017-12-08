@@ -1,0 +1,11 @@
+assets/*
+!assets/.gitignore
+protected/runtime/*
+!protected/runtime/.gitignore
+protected/data/*.db
+themes/classic/views/
+/nbproject/*
+phpunit.xml
+vendor/*
+composer.lock
+.php_cs_cache

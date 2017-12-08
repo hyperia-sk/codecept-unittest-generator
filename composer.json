@@ -11,8 +11,9 @@
     ],
 
     "require": {
-        "php": ">=5.4.0",
-        "codeception/codeception": "^2.2.0"
+        "php": ">=7.0.0",
+        "codeception/codeception": "^2.2.0",
+        "paulthebaud/phpunit-generator": "1.*"
     },
 
     "autoload": {
