@@ -7,13 +7,17 @@
         {
             "name": "Lukas Mestan",
             "email": "lukas.mestan@hyperia.sk"
+        },
+        {
+            "name": "Ján Janki Úskoba",
+            "email": "jan.uskoba@hyperia.sk"
         }
     ],
 
     "require": {
         "php": ">=7.0.0",
         "codeception/codeception": "@dev",
-        "paulthebaud/phpunit-generator": "1.*"
+        "phpunitgen/console": "*"
     },
 
     "autoload": {
